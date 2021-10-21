@@ -1,0 +1,30 @@
+{
+  "name": "ha-cli",
+  "version": "1.0.0",
+  "description": "automatizacion de de procesos con cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HAlejandro88/ha-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "ha"
+  ],
+  "author": "Alejandro Soto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HAlejandro88/ha-cli/issues"
+  },
+  "homepage": "https://github.com/HAlejandro88/ha-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.2.0",
+    "shelljs": "^0.8.4"
+  },
+  "bin": "./index.js"
+}
